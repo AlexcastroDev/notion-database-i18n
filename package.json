@@ -1,0 +1,21 @@
+{
+  "name": "notion-api-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf output && yarn",
+    "generate": "npm run clean && node ./src/index.js",
+    "build": "npm run generate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "rimraf": "^3.0.2"
+  }
+}
